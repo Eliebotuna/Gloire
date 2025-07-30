@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gloire ALITAKAMUNGU - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=1.0.1">
 </head>
 <body>
     <!-- Header -->
@@ -20,15 +20,18 @@
                 </div>
             </div>
             <nav class="header-right">
+                <button class="menu-toggle" aria-label="Menu">
+                    <span class="hamburger"></span>
+                </button>
                 <ul class="header-menu">
                     <li><a href="#accueil" class="active">Accueil</a></li>
-                <li><a href="#apropos">À propos</a></li>
+                    <li><a href="#apropos">À propos</a></li>
                     <li><a href="#projets">Projets</a></li>
-                <li><a href="#competences">Compétences</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+                    <li><a href="#competences">Compétences</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
             </nav>
-            </div>
+        </div>
     </header>
 
     <!-- Hero Section -->
@@ -39,7 +42,7 @@
                 <a href="#projets" class="cta-button new-cta-button">Voir mes projets</a>
             </div>
             <div class="hero-image new-hero-image">
-                <img src="image/droit.jpg" alt="Illustration droit" class="hero-illustration" style="max-width:320px;width:100%;border-radius:20px;box-shadow:0 4px 24px rgba(0,0,0,0.08);background:#fff;object-fit:cover;aspect-ratio:1.2/1;" />
+                <img src="public/image/DROIT.jpg" alt="Illustration droit" class="hero-illustration" style="max-width:320px;width:100%;border-radius:20px;box-shadow:0 4px 24px rgba(0,0,0,0.08);background:#fff;object-fit:cover;aspect-ratio:1.2/1;" />
             </div>
         </div>
     </section>
@@ -59,25 +62,25 @@
                     </a>
                     <div class="about-social-links">
                         <a href="http://linkedin.com/in/jospin-gloire-birindwa-514002196" target="_blank" class="social-icon" title="LinkedIn">
-                            <img src="image/icon/linkedin-svgrepo-com.svg" alt="LinkedIn" class="social-svg">
+                            <img src="public/image/icon/linkedin-svgrepo-com.svg" alt="LinkedIn" class="social-svg">
                         </a>
                         <a href="https://www.facebook.com/share/1C9Do7Sp9A/?mibextid=wwXIfr" target="_blank" class="social-icon" title="Facebook">
-                            <img src="image/icon/facebook-svgrepo-com.svg" alt="Facebook" class="social-svg">
+                            <img src="public/image/icon/facebook-svgrepo-com.svg" alt="Facebook" class="social-svg">
                         </a>
                         <a href="https://www.instagram.com/me_gloire_jospin?igshid=djlvYWlva20xM2Js&utm_source=qr" target="_blank" class="social-icon" title="Instagram">
-                            <img src="image/icon/instagram-svgrepo-com.svg" alt="Instagram" class="social-svg">
+                            <img src="public/image/icon/instagram-svgrepo-com.svg" alt="Instagram" class="social-svg">
                         </a>
                         <a href="https://t.me/MeGloBir" target="_blank" class="social-icon" title="Telegram">
-                            <img src="image/icon/icons8-telegram.svg" alt="Telegram" class="social-svg">
+                            <img src="public/image/icon/icons8-telegram.svg" alt="Telegram" class="social-svg">
                         </a>
                         <a href="https://twitter.com/Gloire_Jos" target="_blank" class="social-icon" title="X (Twitter)">
-                            <img src="image/icon/icons8-x.svg" alt="X (Twitter)" class="social-svg">
+                            <img src="public/image/icon/icons8-x.svg" alt="X (Twitter)" class="social-svg">
                         </a>
                     </div>
                 </div>
             </div>
             <div class="about-image new-about-image">
-                <img src="image/image.jpeg" alt="Photo de Gloire ALITAKAMUNGU" class="profile-pic real-pic new-real-pic fade-in-up" />
+                <img src="public/image/image.jpeg" alt="Photo de Gloire ALITAKAMUNGU" class="profile-pic real-pic new-real-pic fade-in-up" />
             </div>
         </div>
     </section>
@@ -297,7 +300,7 @@
                     
                     <div class="contact-method">
                         <div class="contact-icon white-bg">
-                            <img src="image/icon/icons8-phone.svg" alt="Téléphone" class="svg-icon">
+                            <img src="public/image/icon/icons8-phone.svg" alt="Téléphone" class="svg-icon">
                         </div>
                         <div class="contact-details">
                             <a href="tel:+243970552021">+243 970 552 021</a>
@@ -307,7 +310,7 @@
                     
                     <div class="contact-method">
                         <div class="contact-icon white-bg">
-                            <img src="image/icon/icons8-mail-96.png" alt="Email" class="svg-icon">
+                            <img src="public/image/icon/icons8-mail-96.png" alt="Email" class="svg-icon">
                         </div>
                         <div class="contact-details">
                             <a href="mailto:alitakamungu.gloire.birindwa@outlook.fr">alitakamungu.gloire.birindwa@outlook.fr</a>
@@ -317,7 +320,7 @@
                     
                     <div class="contact-method">
                         <div class="contact-icon white-bg">
-                            <img src="image/icon/icons8-mail-96.png" alt="Email" class="svg-icon">
+                            <img src="public/image/icon/icons8-mail-96.png" alt="Email" class="svg-icon">
                         </div>
                         <div class="contact-details">
                             <a href="mailto:gloirejospin14@gmail.com">gloirejospin14@gmail.com</a>
@@ -336,10 +339,10 @@
             Tous droits réservés - 2025
         </div>
     </footer>
-    <script src="script.js"></script>
-    
-    <!-- Script EmailJS -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <!-- Scripts JS -->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3.2.0/dist/email.min.js"></script>
+    <script src="menu.js"></script>
+    <script src="script.js" defer></script>
     <script type="text/javascript">
         (function() {
             // Initialisation d'EmailJS avec votre User ID
